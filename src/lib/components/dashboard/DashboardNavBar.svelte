@@ -11,7 +11,7 @@
 	</div>
 
 	<!-- USER -->
-	{#if $page.data.session.user}
+	{#if $page.data.session && $page.data.session.user}
 		<div class="px-5">
 			<!-- <div class={role === 'admin' ? 'text-accent' : ''}> -->
 			<div>
