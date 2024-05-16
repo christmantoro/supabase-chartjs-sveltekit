@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { PUBLIC_APP_NAME } from '$env/static/public';
 	import { BellIcon, MoonIcon, SunIcon } from 'svelte-feather-icons';
 </script>
 
@@ -8,9 +7,7 @@
 <div class="navbar px-5 border-b border-opacity-10 border-base-content">
 	<!-- APP TITLE  -->
 	<div class="flex-1">
-		<a href="/dashboard" class="link no-underline text-xl">
-			{PUBLIC_APP_NAME}
-		</a>
+		<a href="/dashboard" class="link no-underline text-xl"> Data Visualization </a>
 	</div>
 
 	<!-- USER -->
